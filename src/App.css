@@ -1,0 +1,226 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+	padding-top: 10px; 
+	height: 50px; 
+	top: 0; /* Position the navbar at the top of the page */
+	z-index: 100;
+    background-color: white;
+    width: 100%;
+	color:#006400;
+    position: fixed;
+}
+
+.switch_routers{
+    margin-top:50px;
+}
+
+.header a{
+    color:#006400;
+}
+
+.header a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.landing-top{
+    height: 500px;
+    background-image: url("/images/topimage.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 210px;
+    color:  #003333;
+    font-size: 1.5em; 
+}
+
+.shop-preview{
+    height: 450px;
+    padding-top: 20px; 
+    font-size: .9em; 
+}
+
+.preview-box{
+    text-align: center; 
+}
+
+.preview-image{
+    height: 360px;
+}
+
+.preview-image:hover{
+    border: 2px solid black;
+}
+
+.monstera-landing{
+    background-image: url("/images/landingpageplants/MONSTERA.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pothos-landing{
+    background-image: url("/images/landingpageplants/pothos.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.fiddle-landing{
+    background-image: url("/images/landingpageplants/fiddleleaf.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.snake-landing{
+    background-image: url("/images/landingpageplants/Snake.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.customer-quote{
+    height: 300px;
+    padding-top: 50px; 
+    text-align: center;
+    clear:both;
+}
+
+.store-banner{
+    height: 500px;
+    text-align: left;
+    padding-top: 150px;
+    background-image: url("/images/aboutbanner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: #003333;
+}
+
+.store-description{
+    margin-top: 30px;
+    font-size: .95em;
+}
+
+.about-title{
+    margin-top: 30px; 
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.about-us{
+    height: 380px;
+    padding-top: 40px;
+    text-align: center; 
+    font-size: .9em;
+    margin-bottom: 280px;
+}
+
+.about-photos{
+    height: 380px;
+}
+
+.about-pics{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.about-plantae{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #e9e8e4;
+    padding: 30px 0px;
+    clear:both;
+}
+
+.white-space{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.top-links{
+    margin: 40px auto;
+    text-align: center; 
+}
+
+.top-links a{
+    color: #800000;
+}
+
+.top-links p{
+    font-size: .8em;
+}
+
+
+.faq-content{
+    height:100%;
+    padding-top: 50px;
+}
+
+.plant-description{
+    height: 300px;
+    margin-bottom: 80px;
+    padding-left:20px;
+}
+
+.detail-images{
+    height: 300px;
+    width: 230px;
+}
+
+.plant-details{
+    margin-top: 5px;
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin: 40px 0 0 0;
+    font-size: .8em;
+}
+
+.footer-text{
+    margin-bottom: 20px;
+}
+
+.phantom{
+    display: block;
+    padding: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+.footer a{
+    color:#006400;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 320px) {
+    .customer-quote{
+    display:none;
+    }
+
+    .plant-description{
+        height: 500px;
+    }
+
+    .store-banner{
+        background-image: none;
+        background-color: #e8e7e3;
+    }
+
+}
+
+
