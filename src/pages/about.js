@@ -35,7 +35,7 @@ class About extends Component {
         <div className ="row about-plantae">
             <div className ="col-md-6 offset-md-3 col-sm-12">
             <h4> Our Story </h4> <br/> 
-            <p> Keith and Tina met in an evening rhetoric course at UC Berkeley. Years later, their love of plants and home decoration brought them together again at a coffee shop in Hayes Valley. Within an hour, it was clear that they couldn't keep this love just between them; they had to share their experiences with the world. So began <i>Plantae</i>. We're so glad you're here. </p>
+            <p> Keith and Tina met in an evening rhetoric course at UC Berkeley. Years later, their love of plants and home decoration brought them together again at a coffee shop in Hayes Valley. Within an hour, it was clear that they couldn't keep this love just between them &mdash; they had to share their experiences with the world. So began <i>Plantae</i>. We're so glad you're here. </p>
             </div>
         </div>
           <div className = "white-space">
