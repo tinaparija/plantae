@@ -169,14 +169,11 @@ html{
     margin-bottom: 280px;
 }
 
-.about-photos{
-    height: 380px;
-}
-
 .about-keithtina{
     height: 500px;
     width: 500px;
     margin-bottom: 40px;
+    border-radius: 50%;
 }
 
 .about-plantae{
@@ -266,10 +263,6 @@ html{
     body{
         width:85%;
         margin:auto;
-    }
-
-    .header_second_link{
-        margin-left: -10px;
     }
 
     .landing-top{
