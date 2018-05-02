@@ -19,13 +19,13 @@ class App extends Component {
     return (
       <div className = "container-fluid">
         <div className ="row header" >
-          <div className="col col-md-1">
-              <a href="/"><img src="images/plantaelogotrans.png" alt="logo" height="30" width="125"/></a>
+          <div className="col col-sm-1">
+              <a href="/"><img src="images/plantaelogotrans.png" alt="logo" height="35" width="160"/></a>
           </div>
-          <div className="col offset-md-9 col-md-1">
+          <div className="col offset-sm-9 col-sm-1 header_links header_second_link">
             <a href="/about">About</a>
           </div>
-          <div className="col col-md-1">
+          <div className="col col-sm-1 header_links">
             <a href="/faq">FAQ</a>
           </div>
         </div>
@@ -38,7 +38,7 @@ class App extends Component {
         </div>
         <div className ="row footer">
           <div className ="phantom">
-          <div className = "footer-text col-md-12">
+          <div className = "footer-text col-sm-12">
             <a href="mailto:plantae.sf@gmail.com">plantae.sf@gmail.com</a>
           </div> 
           </div>

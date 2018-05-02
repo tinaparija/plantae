@@ -12,7 +12,7 @@ class FAQ extends Component {
     return (
       <div>
         <div className="row faq-content">
-          <div className ="col-md-8 offset-md-3">
+          <div className ="col-sm-8 offset-sm-3">
             <h4> FAQ </h4> 
             <ul>
              <li> stuff</li>

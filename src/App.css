@@ -2,15 +2,24 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html{
+    min-height: 100%;
+}
+
 .header{
 	padding-top: 10px; 
-	height: 50px; 
+	height: 55px; 
 	top: 0; /* Position the navbar at the top of the page */
 	z-index: 100;
     background-color: white;
     width: 100%;
 	color:#006400;
     position: fixed;
+}
+
+.header_links{
+    margin-top:5px;
+    font-size: 1.1em;
 }
 
 .switch_routers{
@@ -27,12 +36,12 @@
 }
 
 .landing-top{
-    height: 500px;
+    height: 430px;
     background-image: url("/images/topimage.jpg");
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 210px;
+    padding-top: 170px;
     color:  #003333;
     font-size: 1.5em; 
 }
@@ -45,6 +54,7 @@
 
 .preview-box{
     text-align: center; 
+    box-sizing: border-box;
 }
 
 .preview-image{
@@ -53,6 +63,10 @@
 
 .preview-image:hover{
     border: 2px solid black;
+}
+
+.landing-plant-description{
+    margin-top: 10px; 
 }
 
 .monstera-landing{
@@ -89,7 +103,7 @@
 .store-banner{
     height: 500px;
     text-align: left;
-    padding-top: 150px;
+    padding-top: 140px;
     background-image: url("/images/aboutbanner.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -153,7 +167,6 @@
     font-size: .8em;
 }
 
-
 .faq-content{
     height:100%;
     padding-top: 50px;
@@ -161,18 +174,24 @@
 
 .plant-description{
     height: 300px;
-    margin-bottom: 80px;
-    padding-left:20px;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: space-around;
 }
 
 .detail-images{
-    height: 300px;
-    width: 230px;
+    height: 350px;
+    width: 270px;
 }
 
 .plant-details{
-    margin-top: 5px;
+    background: linear-gradient( white, #edf2ed);
 }
+
+.plant-details h5{
+    margin-bottom: 20px; 
+}
+
 
 .footer{
     background-color: white;
@@ -200,6 +219,7 @@
 
 .footer a{
     color:#006400;
+    font-size: 1.3em;
 }
 
 .footer a:hover{
@@ -207,19 +227,55 @@
     color: black;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
+    .header_second_link{
+        margin-left: -10px;
+    }
+
+    .landing-top{
+        background-image: none;
+        background-color: #daeaf1;
+    }
+
+    .landing-plant-description:last-child{
+        margin-bottom: 20px; 
+    }
+
     .customer-quote{
-    display:none;
+        display:none;
     }
 
     .plant-description{
         height: 500px;
+        text-align: center; 
+        margin: auto;
+        margin-bottom: 150px;
     }
 
     .store-banner{
         background-image: none;
         background-color: #e8e7e3;
+        margin-bottom: -80px;
+        padding-top: 30px; 
     }
+
+    .about-title{
+        display:none;
+    }
+    .about-us{
+        display:none;
+    }
+
+    .about-plantae{
+        font-size: .9em;
+        text-align: left;
+    }
+
+    body{
+        width:85%;
+        margin:auto;
+    }
+
 
 }
 

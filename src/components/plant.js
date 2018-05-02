@@ -13,7 +13,7 @@ class Plant extends Component {
                   "image3": "/images/pothos/pothos3.jpg", 
                   "description": "Pothos ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   "care":["blah","blah", "blah"],
-                  "price": 80
+                  "price": "60 for a std. 2 ft. plant"
                 }, 
                 "Monstera": {
                   "name": "Monstera",
@@ -22,7 +22,7 @@ class Plant extends Component {
                   "image3": "/images/monstera/monstera3.jpg", 
                   "description": "Monstera ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   "care":["blah","blah", "blah"],
-                  "price": 80
+                  "price": "100 for a std. 3 ft. plant"
                 }, 
                 "FigLeaf": {
                   "name": "Fiddle Leaf Fig",
@@ -31,7 +31,7 @@ class Plant extends Component {
                   "image3": "/images/fiddleleaf/FLF3.jpg", 
                   "description": "FigLeaf ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   "care":["blah","blah", "blah"],
-                  "price": 80
+                  "price": "140 for a std. 3 ft. plant"
                 }, 
                 "Snake": {
                   "name": "Snake Plant",
@@ -40,7 +40,7 @@ class Plant extends Component {
                   "image3": "/images/snakeplant/Snake3.jpg", 
                   "description": "Snake ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   "care":["blah","blah", "blah"],
-                  "price": 80
+                  "price": "60 for a std. 2 ft. plant"
                 }
       }
     }
@@ -57,19 +57,19 @@ class Plant extends Component {
           </div>
         </div>
         <div className="row plant-description">
-          <div className = "col-md-3 offset-md-2 col-sm-12">
+          <div className = "col-sm-3 offset-sm-1">
             <img src ={this.state.type[plant_name].image1} className ="detail-images" />
           </div>
-          <div className = "col-md-5 col-sm-12 plant-details">
+          <div className = "col-sm-5 plant-details">
             <h5>{this.state.type[plant_name].name}</h5>
             <p>{this.state.type[plant_name].description}</p>
           </div>
         </div> 
         <div className="row plant-description">
-          <div className = "col-md-3 offset-md-2 col-sm-12">
+          <div className = "col-sm-3 offset-sm-1">
             <img src ={this.state.type[plant_name].image2} className ="detail-images" />
           </div>
-          <div className = "col-md-5 col-sm-12 plant-details">
+          <div className = "col-sm-5 plant-details">
           <h5>Care Details</h5>
           <ul>
             <li>{this.state.type[plant_name].care[0]}</li>
@@ -79,10 +79,10 @@ class Plant extends Component {
           </div>
         </div> 
         <div className="row plant-description">
-          <div className = "col-md-3 offset-md-2 col-sm-12">
+          <div className = "col-sm-3 offset-sm-1">
             <img src ={this.state.type[plant_name].image3} className ="detail-images" />
           </div>
-          <div className = "col-md-5 col-sm-12 plant-details">
+          <div className = "col-sm-5 plant-details">
             <h5>Pricing</h5>
             <p>${this.state.type[plant_name].price}</p>
             <p> To order, please email plantae.sf@gmail.com. </p> 
