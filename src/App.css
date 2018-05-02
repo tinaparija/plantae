@@ -18,7 +18,7 @@ html{
 }
 
 .header_links{
-    margin-top:5px;
+    margin-top: 3px;
     font-size: 1.1em;
 }
 
@@ -192,6 +192,26 @@ html{
     margin-bottom: 20px; 
 }
 
+.question-block{
+    margin: 25px 0;
+}
+
+.question-block h5{
+    text-indent: 2em;
+    margin-right: 2em;
+}
+
+.question-block p{
+    color: #006400;
+    text-align: left;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.question-block a{
+    color:  #800000;
+}
+
 
 .footer{
     background-color: white;
@@ -269,6 +289,11 @@ html{
     .about-plantae{
         font-size: .9em;
         text-align: left;
+    }
+
+    .question-block{
+        margin-left: 0;
+        text-align: center;
     }
 
     body{

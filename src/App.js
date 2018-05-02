@@ -39,7 +39,7 @@ class App extends Component {
         <div className ="row footer">
           <div className ="phantom">
           <div className = "footer-text col-sm-12">
-            <a href="mailto:plantae.sf@gmail.com">plantae.sf@gmail.com</a>
+            <a href="info@plantaesf.com">info@plantaesf.com</a>
           </div> 
           </div>
         </div>
