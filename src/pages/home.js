@@ -21,7 +21,7 @@ class Home extends Component {
   render() {
     if (!this.state.plant){
     return (
-      <div>
+      <div className = "landing-page">
         <div className = "row landing-top">
           <div className ="col-sm-12">
             <p>Cute, easy care plants delivered.</p>

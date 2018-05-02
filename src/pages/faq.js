@@ -16,7 +16,7 @@ class FAQ extends Component {
             <h4> Frequently Asked Questions </h4> 
               <div className = "question-block">
                 <h5>Shit, I think my plant is dying! What's going on?</h5>
-                <p> Most plants lose leaves as they mature, one or two is common. If the whole plant looks unhappy, check to make sure it has water or has been over watered (i.e. there's pooled water at the bottom of the pot. If it's more complicated than that, email us at <a href="info@plantaesf.com">info@plantaesf.com</a>.</p>
+                <p> Most plants lose leaves as they mature, one or two is common. If the whole plant looks unhappy, check to make sure it has water or has been over watered (i.e. there's pooled water at the bottom of the pot). If it's more complicated than that, email us at <a href="info@plantaesf.com">info@plantaesf.com</a>.</p>
               </div> 
               <div className = "question-block">
                 <h5>What are your delivery hours?</h5>
@@ -32,10 +32,10 @@ class FAQ extends Component {
               </div> 
               <div className = "question-block">
                 <h5>How do I pick the right plant for my living conditions?</h5>
-                <p> All of the plants we’ve selected to sell do well under most lighting conditions but remember, plants need light to grow and thrive. If in doubt, take a picture of your space showing the lighting and ask us our thoughts!</p>
+                <p> All of our plants do well under most lighting conditions but remember, plants need light to grow and thrive. If in doubt, take a picture of your space showing the lighting and ask us our thoughts!</p>
               </div> 
               <div className = "question-block">
-                <h5>Are these plants safe and nontoxic to pets?</h5>
+                <h5>Are your plants safe for pets?</h5>
                 <p> While you might like your plants, some are not safe for pets. Everything in our selection could be potentially toxic to pets. If you have a pet and choose a potentially toxic plant, we assume no liability. Be sure to place the plant out of Fido’s reach and clip of any dying leaves before they fall to the floor.</p>
               </div> 
               <div className = "question-block">
@@ -50,7 +50,7 @@ class FAQ extends Component {
                 <p> <i>Plan-ti.</i></p>
               </div> 
               <div className = "question-block">
-                <h5>I don't see a specific plant; can you get it for me?</h5>
+                <h5>I don't see a specific plant &mdash; can you get it for me?</h5>
                 <p> Shoot us an email at <a href="info@plantaesf.com">info@plantaesf.com</a> and will get back to you with availability and an estimated cost. </p>
               </div>
               <div className = "white-space">
