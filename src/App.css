@@ -35,6 +35,43 @@ html{
     color: black;
 }
 
+
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin: 40px 0 0 0;
+    font-size: .8em;
+}
+
+.footer-text{
+    margin-bottom: 20px;
+}
+
+.phantom{
+    display: block;
+    padding: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+.footer a{
+    color:#006400;
+    font-size: 1.3em;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* Landing Page Style */
+
 .landing-top{
     height: 430px;
     background-image: url("/images/topimage.jpg");
@@ -100,6 +137,8 @@ html{
     clear:both;
 }
 
+/* About Page Style */
+
 .store-banner{
     height: 500px;
     text-align: left;
@@ -134,7 +173,7 @@ html{
     height: 380px;
 }
 
-.about-pics{
+.about-keithtina{
     height: 500px;
     width: 500px;
     margin-bottom: 40px;
@@ -154,6 +193,14 @@ html{
     text-align: center;
 }
 
+/* Plant Detail Page Style */
+
+.plant-page{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
 .top-links{
     margin: 40px auto;
     text-align: center; 
@@ -165,11 +212,6 @@ html{
 
 .top-links p{
     font-size: .8em;
-}
-
-.faq-content{
-    height:100%;
-    padding-top: 50px;
 }
 
 .plant-description{
@@ -192,6 +234,14 @@ html{
     margin-bottom: 20px; 
 }
 
+/* FAQ Page Style */
+
+
+.faq-content{
+    height:100%;
+    padding-top: 50px;
+}
+
 .question-block{
     margin: 25px 0;
 }
@@ -212,42 +262,12 @@ html{
     color:  #800000;
 }
 
-
-.footer{
-    background-color: white;
-    text-align: center;
-    padding: 10px 0 20px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 40px;
-    width: 100%;
-    margin: 40px 0 0 0;
-    font-size: .8em;
-}
-
-.footer-text{
-    margin-bottom: 20px;
-}
-
-.phantom{
-    display: block;
-    padding: 0px;
-    height: 20px;
-    width: 100%;
-}
-
-.footer a{
-    color:#006400;
-    font-size: 1.3em;
-}
-
-.footer a:hover{
-    text-decoration: none;
-    color: black;
-}
-
 @media screen and (max-width: 480px) {
+    body{
+        width:85%;
+        margin:auto;
+    }
+
     .header_second_link{
         margin-left: -10px;
     }
@@ -259,6 +279,11 @@ html{
 
     .landing-plant-description:last-child{
         margin-bottom: 20px; 
+    }
+
+    .preview-box{
+        width: 85%;
+        margin: 0 auto;
     }
 
     .customer-quote{
@@ -282,6 +307,7 @@ html{
     .about-title{
         display:none;
     }
+
     .about-us{
         display:none;
     }
@@ -291,17 +317,25 @@ html{
         text-align: left;
     }
 
-    .question-block{
-        margin-left: 0;
+    .plant-details{
+        background: none;
+    }
+
+    .faq-content{
+        text-align: center; 
+    }
+
+    .question-block h5{
+        text-indent: 0em;
+        margin-right: 0em;
+    }
+
+    .question-block p{
+        color: #006400;
         text-align: center;
+        margin-left: 0em;
+        margin-right: 0em;
     }
-
-    body{
-        width:85%;
-        margin:auto;
-    }
-
-
 }
 
 

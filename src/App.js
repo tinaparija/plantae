@@ -5,7 +5,6 @@ import Home from './pages/home';
 import About from './pages/about';
 import Shop from './pages/shop';
 import FAQ from './pages/faq'; 
-import Plant from './components/plant';
 
 
 class App extends Component {

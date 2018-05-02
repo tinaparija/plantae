@@ -49,7 +49,7 @@ class Plant extends Component {
   render() {
     let plant_name = this.props.type; 
     return (
-      <div>
+      <div className = "plant-page">
         <div className = "row">
           <div className = "offset-md-2 col-md-8 top-links">
             <a href="/">Back to Home</a>

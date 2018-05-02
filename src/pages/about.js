@@ -29,7 +29,7 @@ class About extends Component {
         </div> 
         <div className = "about-us row">
           <div className ="about-photos col-sm-10 offset-sm-1">
-            <img src = "/images/aboutus/keithtina.jpg" className = "about-pics"/>
+            <img src = "/images/aboutus/keithtina.jpg" className = "about-keithtina"/>
           </div>
         </div>
         <div className ="row about-plantae">
