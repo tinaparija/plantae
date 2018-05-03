@@ -85,6 +85,7 @@ class Plant extends Component {
           <div className = "col-sm-5 plant-details">
             <h5>Pricing</h5>
             <p>${this.state.type[plant_name].price}</p>
+            <p> Each plant comes pre-potted in a minimalist, water friendly pot. We provide physical care instructions upon delivery.</p> 
             <p> To order, please email plantae.sf@gmail.com. </p> 
           </div>
         </div> 

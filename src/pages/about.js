@@ -39,7 +39,6 @@ class About extends Component {
             </div>
         </div>
           <div className = "white-space">
-            <a href="/" className="text-info"> Back to Main </a>
           </div>
       </div>
     );
