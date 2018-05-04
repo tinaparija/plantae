@@ -51,7 +51,7 @@ class Plant extends Component {
     return (
       <div className = "plant-page">
         <div className = "row">
-          <div className = "offset-md-2 col-md-8 top-links">
+          <div className = "offset-sm-2 col-sm-8 top-links">
             <a href="/">Back to Home</a>
             <p>To order and schedule delivery, please email <b><a href="mailto:info@plantaesf.com">info@plantaesf.com</a></b></p>
           </div>
@@ -91,7 +91,8 @@ class Plant extends Component {
             <p> To order, email <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p> 
           </div>
         </div> 
-        <div className = "row white-space">
+        <div className = "col-sm-12 white-space">
+        <a href="/">Back to Home</a>
         </div>
       </div>
     );

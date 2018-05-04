@@ -217,7 +217,7 @@ body{
 }
 
 .plant-description{
-    height: 300px;
+    height: 500px;
     margin-bottom: 100px;
     display:flex;
     justify-content: space-around;
@@ -237,6 +237,10 @@ body{
 }
 
 .plant-details a{
+    color:#800000;
+}
+
+.white-space a{
     color:#800000;
 }
 
@@ -294,9 +298,13 @@ body{
 
     .plant-description{
         height: 500px;
-        text-align: center; 
+        text-align: left; 
         margin: auto;
-        margin-bottom: 150px;
+        margin-bottom: 250px;
+    }
+
+    .plant-details{
+        background: none;
     }
 
     .store-banner{
@@ -321,9 +329,6 @@ body{
         text-align: left;
     }
 
-    .plant-details{
-        background: none;
-    }
 
     .faq-content{
         text-align: center; 
