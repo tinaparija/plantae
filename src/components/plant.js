@@ -76,6 +76,7 @@ class Plant extends Component {
             <li>{this.state.type[plant_name].care[1]}</li>
             <li>{this.state.type[plant_name].care[2]}</li> 
           </ul>
+          <p>We provide detailed, physical care instructions upon delivery.</p>
           </div>
         </div> 
         <div className="row plant-description">
@@ -85,7 +86,7 @@ class Plant extends Component {
           <div className = "col-sm-5 plant-details">
             <h5>Pricing</h5>
             <p>${this.state.type[plant_name].price}</p>
-            <p> Each plant comes pre-potted in a minimalist, water friendly pot. We provide physical care instructions upon delivery.</p> 
+            <p> Each plant comes pre-potted in a minimalist, water friendly pot.</p> 
             <p> If you'd like to order a larger size, please contact us for a custom quote. </p> 
             <p> To order, email <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p> 
           </div>
