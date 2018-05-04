@@ -16,7 +16,7 @@ class FAQ extends Component {
             <h4> Frequently Asked Questions </h4> 
               <div className = "question-block">
                 <h5>Shit, I think my plant is dying! What's going on?</h5>
-                <p> Most plants lose leaves as they mature, one or two is common. If the whole plant looks unhappy, check to make sure it has water or has been over watered (i.e. there's pooled water at the bottom of the pot). If it's more complicated than that, email us at <a href="info@plantaesf.com">info@plantaesf.com</a>.</p>
+                <p> Most plants lose leaves as they mature, one or two is common. If the whole plant looks unhappy, check to make sure it has water or has been over watered (i.e. there's pooled water at the bottom of the pot). If it's more complicated than that, email us at <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>.</p>
               </div> 
               <div className = "question-block">
                 <h5>What are your delivery hours?</h5>
@@ -24,11 +24,11 @@ class FAQ extends Component {
               </div> 
               <div className = "question-block">
                 <h5>Where will you deliver?</h5>
-                <p> Within the 7X7 that make up San Francisco. For deliveries out of this zone, please email your inquiry to <a href="info@plantaesf.com">info@plantaesf.com</a>. </p>
+                <p> Within the 7X7 that make up San Francisco. For deliveries out of this zone, please email your inquiry to <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p>
               </div> 
               <div className = "question-block">
                 <h5>Who do I arrange for a plant to be gifted?</h5>
-                <p> We can make special accommodations for gifted plants with advance notice. Please email us at <a href="info@plantaesf.com">info@plantaesf.com</a> with at least two weeks notice. </p>
+                <p> We can make special accommodations for gifted plants with advance notice. Please email us at <a href="mailto:info@plantaesf.com">info@plantaesf.com</a> with at least two weeks notice. </p>
               </div> 
               <div className = "question-block">
                 <h5>How do I pick the right plant for my living conditions?</h5>
@@ -51,7 +51,7 @@ class FAQ extends Component {
               </div> 
               <div className = "question-block">
                 <h5>I don't see a specific plant &mdash; can you get it for me?</h5>
-                <p> Shoot us an email at <a href="info@plantaesf.com">info@plantaesf.com</a> and will get back to you with availability and an estimated cost. </p>
+                <p> Shoot us an email at <a href="mailto:info@plantaesf.com">info@plantaesf.com</a> and we will get back to you with availability and an estimated cost. </p>
               </div>
               <div className = "white-space">
               </div>

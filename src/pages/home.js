@@ -28,10 +28,10 @@ class Home extends Component {
           </div> 
         </div>
         <div className = "row shop-preview">
-          <div className = "col-sm-3 preview-box" onClick={(e) => this.setPlant(e, "Monstera")}>
+          <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Monstera")}>
             <h5>Monstera</h5>
             <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 preview-image monstera-landing">
+              <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image monstera-landing">
               </div>
             </div>
             <div className = "row">
@@ -40,10 +40,10 @@ class Home extends Component {
               </div>
             </div> 
           </div>
-          <div className = "col-sm-3 preview-box" onClick={(e) => this.setPlant(e, "Pothos")}>
+          <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Pothos")}>
             <h5>Pothos</h5>
             <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 preview-image pothos-landing">
+              <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image pothos-landing">
               </div>
             </div> 
             <div className = "row">
@@ -52,10 +52,10 @@ class Home extends Component {
               </div>
             </div> 
           </div>
-          <div className = "col-sm-3 preview-box" onClick={(e) => this.setPlant(e, "FigLeaf")}>
+          <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "FigLeaf")}>
             <h5>Fiddle Leaf Fig</h5>
             <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 preview-image fiddle-landing ">
+              <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image fiddle-landing ">
               </div>
             </div>
             <div className = "row">
@@ -64,10 +64,10 @@ class Home extends Component {
               </div>
             </div> 
           </div>
-          <div className = "col-sm-3 preview-box" onClick={(e) => this.setPlant(e, "Snake")}>
+          <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Snake")}>
             <h5>Snake Plant</h5>
             <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 preview-image snake-landing">
+              <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image snake-landing">
               </div>
             </div>
             <div className = "row">
@@ -77,11 +77,11 @@ class Home extends Component {
             </div> 
           </div>
         </div>
-        <div className = "row customer-quote">
+        <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
            <p> "Brought me some fucking dope plants." - Tina </p>
           </div>
-        </div>
+        </div>      
       </div>
     );
   }

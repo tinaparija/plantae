@@ -33,12 +33,14 @@ class App extends Component {
           <Route exact path='/'component={Home}/> )} />
           <Route exact path='/about' component={About}/> )} />
           <Route exact path='/faq' component={FAQ}/> )} />
-          </Switch>
+        </Switch>
         </div>
         <div className ="row footer">
           <div className ="phantom">
           <div className = "footer-text col-sm-12">
             <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>
+            <a href="https://www.instagram.com/plantae_sf/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/plantaesf/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           </div> 
           </div>
         </div>

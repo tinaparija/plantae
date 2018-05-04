@@ -11,8 +11,8 @@ class Plant extends Component {
                   "image1": "/images/pothos/pothos1.jpg",
                   "image2": "/images/pothos/pothos2.jpg",
                   "image3": "/images/pothos/pothos3.jpg", 
-                  "description": "Pothos ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  "care":["blah","blah", "blah"],
+                  "description": "Pothos, or epipremnum aureum, is an evergreen vining plant native to the islands of French Polynesia. Its vines grow quite long over time if well cared for. Great for a dramatic wall display or trailing from a hanging planter.  Pothos is also perfect for filtering toxins as it absorbs pollutants such as benzene, formaldehyde and xylene.",
+                  "care":["Water every 2 weeks","Indirect to low lighting", "Long vines can be cut and propagated to produce new plants"],
                   "price": "60 for a std. 2 ft. plant"
                 }, 
                 "Monstera": {
@@ -20,8 +20,8 @@ class Plant extends Component {
                   "image1": "/images/monstera/MONSTERA1.jpg",
                   "image2": "/images/monstera/monstera2.jpg",
                   "image3": "/images/monstera/monstera3.jpg", 
-                  "description": "Monstera ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  "care":["blah","blah", "blah"],
+                  "description": "Monstera deliciosa translates from latin into “delicious monster.” Large split leaves that develop additional cuts and holes with age make this plant an interior design staple. Young plants have few to no cuts. The Monstera originates in Central America, where it grows up tree trunks as high as 30ft, though they remain a much more manageable size indoors. The Monstera makes a fantastic houseplant as it’s easy to care and adds an exotic aesthetic to any atmosphere.",
+                  "care":["Water every 1-2 weeks","Indirect medium light or light misting", "Could require stake to maintain shape at larger stages"],
                   "price": "100 for a std. 3 ft. plant"
                 }, 
                 "FigLeaf": {
@@ -29,8 +29,8 @@ class Plant extends Component {
                   "image1": "/images/fiddleleaf/FLF1.jpg",
                   "image2": "/images/fiddleleaf/FLF2.jpg",
                   "image3": "/images/fiddleleaf/FLF3.jpg", 
-                  "description": "FigLeaf ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  "care":["blah","blah", "blah"],
+                  "description": "The Fiddle Leaf Fig, or ficus lyrata, has experienced a huge boom in popularity recently as the star houseplant of many interior design campaigns. It’s native to Africa where it grows in mild tropics.  Its leaves have a rich green color in the silhouette of a violin.",
+                  "care":["Water every 1-2 weeks, only when soil has completely dried","Bright, indirect light in warmer area of the home", "Duest leaves every so often"],
                   "price": "140 for a std. 3 ft. plant"
                 }, 
                 "Snake": {
@@ -38,8 +38,8 @@ class Plant extends Component {
                   "image1": "/images/snakeplant/Snake1.jpg",
                   "image2": "/images/snakeplant/Snake2.jpg",
                   "image3": "/images/snakeplant/Snake3.jpg", 
-                  "description": "Snake ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  "care":["blah","blah", "blah"],
+                  "description": "The snake plant, or sansevieria trifasciata - laurentii, is commonly called the “mother-in-law’s tongue” because of its lengthy pointed leaves with contrasting yellow border. Native to tropical West Africa, this plant is the most low maintenance house plant you can find. It’s hardy and requires very little water. In the NASA Clean Air Study, the Snake Plant has significant air purification qualities as it removes multiple toxins including carbon dioxide.",
+                  "care":["Water every 4-6 weeks (let soil completeley dry between waterings)","Low to medium indirect light", "That's basically it. It's really easy."],
                   "price": "60 for a std. 2 ft. plant"
                 }
       }
@@ -53,7 +53,7 @@ class Plant extends Component {
         <div className = "row">
           <div className = "offset-md-2 col-md-8 top-links">
             <a href="/">Back to Home</a>
-            <p>To order and schedule delivery, please email <b>plantae.sf@gmail.com</b></p>
+            <p>To order and schedule delivery, please email <b><a href="mailto:info@plantaesf.com">info@plantaesf.com</a></b></p>
           </div>
         </div>
         <div className="row plant-description">
@@ -86,7 +86,8 @@ class Plant extends Component {
             <h5>Pricing</h5>
             <p>${this.state.type[plant_name].price}</p>
             <p> Each plant comes pre-potted in a minimalist, water friendly pot. We provide physical care instructions upon delivery.</p> 
-            <p> To order, please email plantae.sf@gmail.com. </p> 
+            <p> If you'd like to order a larger size, please contact us for a custom quote. </p> 
+            <p> To order, email <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p> 
           </div>
         </div> 
         <div className = "row white-space">
