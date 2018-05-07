@@ -60,7 +60,7 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$120 </p> 
+                <p>$100 </p> 
               </div>
             </div> 
           </div>
@@ -72,7 +72,7 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$80 </p> 
+                <p>$70 </p> 
               </div>
             </div> 
           </div>

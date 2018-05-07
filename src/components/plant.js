@@ -22,7 +22,7 @@ class Plant extends Component {
                   "image3": "/images/monstera/monstera3.jpg", 
                   "description": "Monstera deliciosa translates from latin into “delicious monster.” Large split leaves that develop additional cuts and holes with age make this plant an interior design staple. Young plants have few to no cuts. The Monstera originates in Central America, where it grows up tree trunks as high as 30ft, though they remain a much more manageable size indoors. The Monstera makes a fantastic houseplant as it’s easy to care and adds an exotic aesthetic to any atmosphere.",
                   "care":["Water every 1-2 weeks","Indirect medium light or light misting", "Could require stake to maintain shape at larger stages"],
-                  "price": "100 for a std. 3 ft. plant"
+                  "price": "80 for a std. 2 ft. plant"
                 }, 
                 "FigLeaf": {
                   "name": "Fiddle Leaf Fig",
@@ -31,7 +31,7 @@ class Plant extends Component {
                   "image3": "/images/fiddleleaf/FLF3.jpg", 
                   "description": "The Fiddle Leaf Fig, or ficus lyrata, has experienced a huge boom in popularity recently as the star houseplant of many interior design campaigns. It’s native to Africa where it grows in mild tropics.  Its leaves have a rich green color in the silhouette of a violin.",
                   "care":["Water every 1-2 weeks, only when soil has completely dried","Bright, indirect light in warmer area of the home", "Duest leaves every so often"],
-                  "price": "140 for a std. 3 ft. plant"
+                  "price": "100 for a std. 3 ft. plant"
                 }, 
                 "Snake": {
                   "name": "Snake Plant",
@@ -40,7 +40,7 @@ class Plant extends Component {
                   "image3": "/images/snakeplant/Snake3.jpg", 
                   "description": "The snake plant, or sansevieria trifasciata - laurentii, is commonly called the “mother-in-law’s tongue” because of its lengthy pointed leaves with contrasting yellow border. Native to tropical West Africa, this plant is the most low maintenance house plant you can find. It’s hardy and requires very little water. In the NASA Clean Air Study, the Snake Plant has significant air purification qualities as it removes multiple toxins including carbon dioxide.",
                   "care":["Water every 4-6 weeks (let soil completeley dry between waterings)","Low to medium indirect light", "That's basically it. It's really easy."],
-                  "price": "60 for a std. 2 ft. plant"
+                  "price": "70 for a std. 2 ft. plant"
                 }
       }
     }
