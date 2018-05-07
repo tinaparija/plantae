@@ -139,7 +139,9 @@ body{
 }
 
 .landing-plant-description:last-child{
-        margin-bottom: 20px; 
+    font-size: 1.2em;
+    margin-top:10px;
+    margin-bottom: 20px; 
 }
 
 /* About Page Style */
