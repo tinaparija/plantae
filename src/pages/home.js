@@ -36,7 +36,7 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$80 </p> 
+                <p>CURRENTLY OUT OF STOCK :( </p> 
               </div>
             </div> 
           </div>
