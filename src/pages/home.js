@@ -36,7 +36,7 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>CURRENTLY OUT OF STOCK :( </p> 
+                <p>$90</p> 
               </div>
             </div> 
           </div>
@@ -60,7 +60,7 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$100 </p> 
+                <p>$90</p> 
               </div>
             </div> 
           </div>
@@ -72,14 +72,14 @@ class Home extends Component {
             </div>
             <div className = "row">
               <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$70 </p> 
+                <p>$70</p> 
               </div>
             </div> 
           </div>
         </div>
         <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
-           <p> "Brought me some fucking dope plants." - Tina </p>
+           <p> "It’s been proven by quite a few studies that plants are good for our psychological development. If you green an area, the rate of crime goes down. Torture victims begin to recover when they spend time outside in a garden with flowers. So we need them, in some deep psychological sense, which I don’t suppose anybody really understands yet." - Jane Goodall </p>
           </div>
         </div>      
       </div>

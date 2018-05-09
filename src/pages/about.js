@@ -16,7 +16,7 @@ class About extends Component {
             <h4>Plantae painlessly brings the beauty and heath benefits of indoor plants to urban homes. </h4>
             <div className = "row store-description">
               <div className = "col-sm-10">
-                <p>We deliver cute, easy care plants pre-potted within minimalist pots. All plants come with care instructions. We're dedicated to sourcing our plants from Bay Area growers.</p>
+                <p>We deliver cute, easy care plants pre-potted within minimalist pots. All plants come with care instructions. We're dedicated to sourcing our plants from Bay Area nurseries.</p>
                 <a href="/" className="text-info"> Shop Now </a>
               </div> 
             </div> 

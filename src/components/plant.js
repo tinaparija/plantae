@@ -22,7 +22,7 @@ class Plant extends Component {
                   "image3": "/images/monstera/monstera3.jpg", 
                   "description": "Monstera deliciosa translates from latin into “delicious monster.” Large split leaves that develop additional cuts and holes with age make this plant an interior design staple. Young plants have few to no cuts. The Monstera originates in Central America, where it grows up tree trunks as high as 30ft, though they remain a much more manageable size indoors. The Monstera makes a fantastic houseplant as it’s easy to care and adds an exotic aesthetic to any atmosphere.",
                   "care":["Water every 1-2 weeks","Indirect medium light or light misting", "Could require stake to maintain shape at larger stages"],
-                  "price": "80 for a std. 2 ft. plant."
+                  "price": "90 for a std. 2 ft. plant."
                 }, 
                 "FigLeaf": {
                   "name": "Fiddle Leaf Fig",
@@ -31,7 +31,7 @@ class Plant extends Component {
                   "image3": "/images/fiddleleaf/FLF3.jpg", 
                   "description": "The Fiddle Leaf Fig, or ficus lyrata, has experienced a huge boom in popularity recently as the star houseplant of many interior design campaigns. It’s native to Africa where it grows in mild tropics.  Its leaves have a rich green color in the silhouette of a violin.",
                   "care":["Water every 1-2 weeks, only when soil has completely dried","Bright, indirect light in warmer area of the home", "Duest leaves every so often"],
-                  "price": "100 for a std. 3 ft. plant"
+                  "price": "90 for a std. 2 ft. plant"
                 }, 
                 "Snake": {
                   "name": "Snake Plant",
@@ -86,7 +86,7 @@ class Plant extends Component {
           <div className = "col-sm-5 plant-details">
             <h5>Pricing</h5>
             <p>${this.state.type[plant_name].price}</p>
-            <p> Each plant comes pre-potted in an 8'' water friendly pot.</p> 
+            <p> Each plant comes pre-potted in an 8'' self-watering, minimalist pot.</p> 
             <p> If you'd like to order a larger size, please contact us for a custom quote. </p>
             <p> To order, email <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p>
           </div>
