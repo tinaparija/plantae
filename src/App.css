@@ -281,7 +281,7 @@ body{
     }
 
     .landing-top{
-        background-image: none;
+        background-image: url("/images/mobiletopimage.jpg");
         background-color: #daeaf1;
     }
 
