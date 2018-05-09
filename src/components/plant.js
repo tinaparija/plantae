@@ -30,7 +30,7 @@ class Plant extends Component {
                   "image2": "/images/fiddleleaf/FLF2.jpg",
                   "image3": "/images/fiddleleaf/FLF3.jpg", 
                   "description": "The Fiddle Leaf Fig, or ficus lyrata, has experienced a huge boom in popularity recently as the star houseplant of many interior design campaigns. It’s native to Africa where it grows in mild tropics.  Its leaves have a rich green color in the silhouette of a violin.",
-                  "care":["Water every 1-2 weeks, only when soil has completely dried","Bright, indirect light in warmer area of the home", "Duest leaves every so often"],
+                  "care":["Water every 1-2 weeks, only when soil has completely dried","Bright, indirect light in warmer area of the home", "Dust leaves every so often"],
                   "price": "90 for a std. 2 ft. plant"
                 }, 
                 "Snake": {
