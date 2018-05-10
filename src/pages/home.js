@@ -34,21 +34,11 @@ class Home extends Component {
               <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image monstera-landing">
               </div>
             </div>
-            <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$90</p> 
-              </div>
-            </div> 
           </div>
           <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Pothos")}>
             <h5>Pothos</h5>
             <div className = "row">
               <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image pothos-landing">
-              </div>
-            </div> 
-            <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$60 </p> 
               </div>
             </div> 
           </div>
@@ -58,11 +48,6 @@ class Home extends Component {
               <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image fiddle-landing ">
               </div>
             </div>
-            <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$90</p> 
-              </div>
-            </div> 
           </div>
           <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Snake")}>
             <h5>Snake Plant</h5>
@@ -70,18 +55,17 @@ class Home extends Component {
               <div className ="col-lg-10 offset-lg-1 col-sm-8 offset-sm-2 preview-image snake-landing">
               </div>
             </div>
-            <div className = "row">
-              <div className ="col-sm-10 offset-sm-1 landing-plant-description">
-                <p>$70</p> 
-              </div>
-            </div> 
           </div>
         </div>
         <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
            <p> "It’s been proven by quite a few studies that plants are good for our psychological development. If you green an area, the rate of crime goes down. Torture victims begin to recover when they spend time outside in a garden with flowers. So we need them, in some deep psychological sense, which I don’t suppose anybody really understands yet." - Jane Goodall </p>
           </div>
-        </div>      
+        </div>
+        <div className = "white-space">
+        </div>
+        <div className = "white-space">
+        </div>
       </div>
     );
   }

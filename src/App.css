@@ -97,6 +97,7 @@ body{
 .preview-box{
     text-align: center; 
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .preview-image{
@@ -133,16 +134,11 @@ body{
 
 .customer-quote{
     height: 300px;
-    padding-top: 60px; 
+    padding-top: 30px; 
     text-align: center;
     clear:both;
 }
 
-.landing-plant-description:last-child{
-    font-size: 1.2em;
-    margin-top:10px;
-    margin-bottom: 20px; 
-}
 
 /* About Page Style */
 
