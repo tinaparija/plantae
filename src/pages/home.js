@@ -64,8 +64,6 @@ class Home extends Component {
         </div>
         <div className = "white-space">
         </div>
-        <div className = "white-space">
-        </div>
       </div>
     );
   }
