@@ -21,10 +21,10 @@ class App extends Component {
           <div className="col col-sm-1">
               <a href="/"><img src="images/plantaelogotrans.png" alt="logo" height="35" width="160"/></a>
           </div>
-          <div className="col offset-sm-9 col-sm-1 header_links header_second_link">
+          <div className="col offset-sm-9 col-sm-1 header_links">
             <a href="/about">About</a>
           </div>
-          <div className="col col-sm-1 header_links">
+          <div className="col col-sm-1 header_links header_second_link">
             <a href="/faq">FAQ</a>
           </div>
         </div>

@@ -35,7 +35,6 @@ body{
     color: black;
 }
 
-
 .footer{
     background-color: white;
     text-align: center;
@@ -276,6 +275,10 @@ body{
         margin:auto;
     }
 
+    .header_second_link{
+        margin-left: -35px;
+    }
+
     .landing-top{
         background-image: url("/images/mobiletopimage.jpg");
         background-color: #daeaf1;
@@ -284,6 +287,7 @@ body{
     .landing-plant-description:last-child{
         margin-bottom: 20px; 
     }
+
 
     .preview-box{
         width: 85%;
@@ -326,7 +330,6 @@ body{
         font-size: .9em;
         text-align: left;
     }
-
 
     .faq-content{
         text-align: center; 

@@ -13,7 +13,7 @@ class About extends Component {
       <div>
         <div className = "row store-banner">
           <div className ="col-sm-5 offset-sm-6">
-            <h4>Plantae painlessly brings the beauty and heath benefits of indoor plants to urban homes. </h4>
+            <h4>Plantae painlessly brings the beauty and health benefits of indoor plants to urban homes. </h4>
             <div className = "row store-description">
               <div className = "col-sm-10">
                 <p>We deliver cute, easy care plants pre-potted within minimalist pots. All plants come with care instructions. We're dedicated to sourcing our plants from Bay Area nurseries.</p>
