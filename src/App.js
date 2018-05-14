@@ -3,7 +3,7 @@ import './App.css';
 import { Switch, Route} from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
-import Shop from './pages/shop';
+import Contact from './pages/contact';
 import FAQ from './pages/faq'; 
 
 
@@ -33,14 +33,15 @@ class App extends Component {
           <Route exact path='/'component={Home}/> )} />
           <Route exact path='/about' component={About}/> )} />
           <Route exact path='/faq' component={FAQ}/> )} />
+          <Route exact path='/contact' component={Contact}/> )} />
         </Switch>
         </div>
         <div className ="row footer">
           <div className ="phantom">
           <div className = "footer-text col-sm-12">
             <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>
-            <a href="https://www.instagram.com/plantae_sf/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/plantaesf/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/plantae_sf/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/plantaesf/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           </div> 
           </div>
         </div>

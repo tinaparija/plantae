@@ -269,6 +269,12 @@ body{
     color:  #800000;
 }
 
+/* Contact Page Style */
+.plants-order{
+    text-align: center; 
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 480px) {
     body{
         width:85%;
