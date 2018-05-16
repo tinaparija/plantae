@@ -59,7 +59,9 @@ class Home extends Component {
         </div>
         <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
-           <p> "It’s been proven by quite a few studies that plants are good for our psychological development. If you green an area, the rate of crime goes down. Torture victims begin to recover when they spend time outside in a garden with flowers. So we need them, in some deep psychological sense, which I don’t suppose anybody really understands yet." - Jane Goodall </p>
+           <p> "Delivery was super simple and the pothos is beautiful! My room became immediately brighter." - Lily, 26 </p>
+           <p> "I'm feeling so green after feeling blue for so long, thanks Plantae." - Max, 28 </p>
+          
           </div>
         </div>
         <div className = "white-space">
