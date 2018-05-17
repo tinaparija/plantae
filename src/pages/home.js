@@ -59,9 +59,8 @@ class Home extends Component {
         </div>
         <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
-           <p> "Delivery was super simple and the pothos is beautiful! My room became immediately brighter." - Lily, 26 </p>
-           <p> "I'm feeling so green after feeling blue for so long. Thanks, Plantae." - Max, 28 </p>
-          
+           <p> "Delivery was super simple and the pothos is beautiful! My room became immediately brighter." - Lily, Alamo Square </p>
+           <p> "I'm feeling so green after feeling blue for so long. Thanks, Plantae." - Max, Financial District </p>
           </div>
         </div>
         <div className = "white-space">

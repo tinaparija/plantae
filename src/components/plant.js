@@ -44,11 +44,19 @@ class Plant extends Component {
                 }
       }
     }
-    
+    this.onBackButtonEvent = this.onBackButtonEvent.bind(this)
   }
-  
+
+  onBackButtonEvent =(e) => {
+    e.preventDefault();
+    window.location.reload(); 
+  }
+
   componentDidMount() {
       window.scrollTo(0, 0)
+      let plant_id = this.props.type 
+      this.props.history.push(`/${plant_id}`);
+      window.onpopstate = this.onBackButtonEvent;
   }
 
   render() {

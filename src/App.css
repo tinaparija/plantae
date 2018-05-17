@@ -75,7 +75,6 @@ body{
 
 /* Landing Page Style */
 
-
 .landing-top{
     height: 430px;
     background-image: url("/images/topimage.jpg");
@@ -96,7 +95,7 @@ body{
 .preview-box{
     text-align: center; 
     box-sizing: border-box;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .preview-image{
@@ -270,9 +269,32 @@ body{
 }
 
 /* Contact Page Style */
-.plants-order{
-    text-align: center; 
-    margin: 0 auto;
+
+.contact-form{
+    text-align: center;
+}
+
+.contact-form h3{
+    text-decoration: underline;
+}
+
+.plant-contact-row{
+    text-align: center;
+    border-bottom: #E8E8E8 groove 3px;
+    margin-top: 20px;
+}
+.contact-images{
+    height: 250px;
+    width: 190px;
+}
+
+.final-comments{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-button{
+    float: right
 }
 
 @media screen and (max-width: 480px) {

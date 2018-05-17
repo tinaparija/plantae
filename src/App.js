@@ -3,9 +3,9 @@ import './App.css';
 import { Switch, Route} from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
+import Plant from './components/plant';
 import Contact from './pages/contact';
 import FAQ from './pages/faq'; 
-
 
 class App extends Component {
   constructor(){
@@ -34,6 +34,7 @@ class App extends Component {
           <Route exact path='/about' component={About}/> )} />
           <Route exact path='/faq' component={FAQ}/> )} />
           <Route exact path='/contact' component={Contact}/> )} />
+          <Route exact path='/:plant' component={Home}/>
         </Switch>
         </div>
         <div className ="row footer">
