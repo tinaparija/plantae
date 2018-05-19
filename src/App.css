@@ -320,7 +320,7 @@ body{
 }
 
 .thanks-container{
-    height: 850px;
+    height: 500px;
 }
 
 @media screen and (max-width: 480px) {
