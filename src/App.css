@@ -96,6 +96,7 @@ body{
 
 .order-box a{
     color:#006400;
+    text-decoration: none;
 }
 
 .order-box a:hover{

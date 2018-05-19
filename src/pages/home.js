@@ -25,9 +25,9 @@ class Home extends Component {
         <div className = "row landing-top">
           <div className ="col-sm-12">
             <p>Cute, easy care plants delivered.</p>
-            <div className = "order-box">
-              <a href="/order"><h5>Order</h5></a>
-            </div>
+             <a href="/order"><div className = "order-box">
+              <h5>Order</h5>
+            </div></a>
           </div> 
         </div>
         <div className = "row shop-preview">

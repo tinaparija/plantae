@@ -65,7 +65,7 @@ class Contact extends Component {
         <div className ="form-container col-sm-6 offset-sm-3">
           <div className ="col-sm-12 contact-form">
           <h3>Order & Contact</h3> 
-          <p className="col-sm-8 offset-sm-2">Please fill out the form below and we will get back to you within 2 days.</p>
+          <p className="col-sm-8 offset-sm-2">Please fill out the form below. We will coordinate a deliver with you shortly.</p>
           </div> 
           <form className = "col-sm-8 offset-sm-2" onSubmit={this.postForm}>
             <div className="form-group">
