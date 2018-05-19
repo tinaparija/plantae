@@ -23,7 +23,7 @@ class FAQ extends Component {
                 <p> Within the 7X7 that make up San Francisco. For deliveries out of this zone, please email your inquiry to <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p>
               </div> 
               <div className = "question-block">
-                <h5>Who do I arrange for a plant to be gifted?</h5>
+                <h5>How do I arrange for a plant to be gifted?</h5>
                 <p> We can make special accommodations for gifted plants with advance notice. Please email us at <a href="mailto:info@plantaesf.com">info@plantaesf.com</a> with at least two weeks notice. </p>
               </div> 
               <div className = "question-block">
