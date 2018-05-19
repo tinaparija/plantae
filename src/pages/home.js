@@ -25,6 +25,9 @@ class Home extends Component {
         <div className = "row landing-top">
           <div className ="col-sm-12">
             <p>Cute, easy care plants delivered.</p>
+            <div className = "order-box">
+              <a href="/order"><h5>Order</h5></a>
+            </div>
           </div> 
         </div>
         <div className = "row shop-preview">
@@ -60,7 +63,7 @@ class Home extends Component {
         <div className = "row customer-quote d-md-none d-lg-block">
           <div className ="offset-sm-3 col-sm-6 d-sm-none d-xs-none d-md-block">
            <p> "Delivery was super simple and the pothos is beautiful! My room became immediately brighter." - Lily, Alamo Square </p>
-           <p> "I'm feeling so green after feeling blue for so long. Thanks, Plantae." - Max, Financial District </p>
+           <p> "I'm feeling so green after feeling blue for so long. Thanks, Plantae." - Max, FiDi </p>
           </div>
         </div>
         <div className = "white-space">

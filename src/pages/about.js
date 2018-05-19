@@ -17,7 +17,8 @@ class About extends Component {
             <div className = "row store-description">
               <div className = "col-sm-10">
                 <p>We deliver cute, easy care plants pre-potted within minimalist pots. All plants come with care instructions. We're dedicated to sourcing our plants from Bay Area nurseries.</p>
-                <a href="/" className="text-info"> Shop Now </a>
+                <a href="/" className="text-info"> Current Listings </a><br></br>
+                <a href="/order" className="text-info">Order</a>
               </div> 
             </div> 
           </div> 

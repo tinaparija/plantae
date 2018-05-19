@@ -54,8 +54,6 @@ class Plant extends Component {
 
   componentDidMount() {
       window.scrollTo(0, 0)
-      let plant_id = this.props.type 
-      this.props.history.push(`/${plant_id}`);
       window.onpopstate = this.onBackButtonEvent;
   }
 
@@ -65,7 +63,7 @@ class Plant extends Component {
       <div className = "plant-page">
         <div className = "row">
           <div className = "offset-sm-2 col-sm-8 top-links">
-            <a href="/">Back to Home</a>
+            <b><a href="/order">Order Here</a></b>
             <p>To order and schedule delivery, please email <b><a href="mailto:info@plantaesf.com">info@plantaesf.com</a></b></p>
           </div>
         </div>
@@ -101,11 +99,10 @@ class Plant extends Component {
             <p>${this.state.type[plant_name].price}</p>
             <p> Each plant comes pre-potted in an 8'' self-watering, minimalist pot.</p> 
             <p> If you'd like to order a larger size, please contact us for a custom quote. </p>
-            <p> To order, email <a href="mailto:info@plantaesf.com">info@plantaesf.com</a>. </p>
+            <p> <b><a href="/order">Order Here</a></b></p>
           </div>
         </div> 
         <div className = "col-sm-12 white-space">
-        <a href="/">Back to Home</a>
         </div>
       </div>
     );
