@@ -62,11 +62,11 @@ class Contact extends Component {
       return (
       <div className = "contact-container">
         <div className ="form-container col-sm-6 offset-sm-3">
-          <div className ="col-sm-12 contact-form">
+          <div className ="col-sm-12 contact-box">
           <h3>Order Request</h3> 
           <p className="col-sm-8 offset-sm-2">Please fill out the form below and we will coordinate a delivery with you shortly.</p>
           </div> 
-          <form className = "col-sm-8 offset-sm-2" onSubmit={this.postForm}>
+          <form className = "col-sm-8 offset-sm-2 order-form" onSubmit={this.postForm}>
             <div className="form-group">
               <label htmlFor="Name">Name</label>
               <input type="text" className="form-control input-sm" required onChange={this.updateMyState('name')}/>

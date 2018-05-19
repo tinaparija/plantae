@@ -299,6 +299,9 @@ body{
     text-decoration: underline;
 }
 
+.order-form{
+    text-align: left; 
+}
 .plant-contact-row{
     text-align: center;
     margin-top: 20px;
@@ -312,7 +315,7 @@ body{
 
 .final-comments{
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-button{
@@ -322,6 +325,7 @@ body{
 .thanks-container{
     height: 500px;
 }
+
 
 @media screen and (max-width: 480px) {
     body{
