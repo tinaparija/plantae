@@ -49,7 +49,6 @@ class Contact extends Component {
             comments: this.state.comments, 
         }), credentials: this.state.credentials
     }).then((res) => {
-        console.log(res)
         return res.json()
     }).then((json) => {
         this.setState({
@@ -137,31 +136,6 @@ class Contact extends Component {
           <form className = "col-sm-8 offset-sm-2">
             <div className="form-group thanks-container">
             </div>
-            <div className="form-group">
-            </div>
-            <div className="form-group">
-            </div>
-            <div className="form-group">
-            </div>
-            <div className="col-sm-12 plant-contact-row">
-            </div>
-            <div className="col-sm-12 plant-contact-row">
-            </div>
-            <div className="col-sm-12 plant-contact-row">
-            </div>
-            <div className="col-sm-12 plant-contact-row">
-              <h5>Snake Plant- $70</h5> 
-              <img src ="/images/snakeplant/Snake1.jpg" className="contact-images"/>
-              <div className="form-group col-sm-6 offset-sm-3">
-                <label htmlFor="MonsteraQ">Quantity</label>
-                <input type="number" className="form-control input-sm" onChange={this.updateMyState('snakeQ')}/>
-              </div>
-            </div>
-            <div className="form-group final-comments">
-              <label htmlFor="Additional Comments">Notes, Thoughts, Feelings</label>
-              <textarea type="text" className="form-control" rows="5" onChange={this.updateMyState('comments')}/>
-            </div>
-            <button type='submit' className='btn btn-success contact-button '>Submit</button>
           </form>
         </div> 
       </div>
