@@ -285,12 +285,12 @@ body{
 
 /* Contact Page Style */
 .contact-container{
-    background-image: url("/images/contactbg.jpg");
+    background-color: #d5e8ee;
 }
 
 .form-container{
     padding-top: 30px;
-    background-color: #fcf6fb;
+    background-color: white;
     text-align: center; 
     padding-bottom: 150px;
 }
