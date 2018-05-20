@@ -295,9 +295,14 @@ body{
     padding-bottom: 150px;
 }
 
-.contact-form h3{
+.contact-box h3{
     text-decoration: underline;
 }
+
+.contact-box p{
+    font-size: .8em;
+}
+
 
 .order-form{
     text-align: left; 

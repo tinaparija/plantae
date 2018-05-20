@@ -44,7 +44,7 @@ class FAQ extends Component {
               </div> 
               <div className = "question-block">
                 <h5>What does Plantae mean?</h5>
-                <p> <a href="http://www.ucmp.berkeley.edu/plants/plantae.html"> Plantae</a> is a broad term used to refer to all plants from cacti, ferns (the most populous subspecies), moses, and general flowering plants. There are over 300,000 species of plants that make up the biological kingdom of plantae. </p>
+                <p> <a href="http://www.ucmp.berkeley.edu/plants/plantae.html"> Plantae</a> is a broad term used to refer to all plants from cacti, ferns (the most populous subspecies), mosses, and general flowering plants. There are over 300,000 species of plants that make up the biological kingdom of plantae. </p>
               </div> <div className = "question-block">
                 <h5>How do you pronounce "plantae"?</h5>
                 <p> <i>Plan-ti.</i></p>
