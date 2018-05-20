@@ -4,7 +4,7 @@ import { Switch, Route} from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
 import Plant from './components/plant';
-import Contact from './pages/contact';
+import Order from './pages/order';
 import FAQ from './pages/faq'; 
 
 class App extends Component {

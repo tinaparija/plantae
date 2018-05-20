@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, withRouter} from 'react-router-dom';
 
 
-class Contact extends Component {
+class Order extends Component {
   constructor(){
     super();
     this.state = {
@@ -64,7 +64,7 @@ class Contact extends Component {
         <div className ="form-container col-sm-6 offset-sm-3">
           <div className ="col-sm-12 contact-box">
           <h3>Order Request</h3> 
-          <p className="col-sm-8 offset-sm-2">Please fill out the form below and we will coordinate a delivery with you shortly. Delivery fees are included in the list price -- we will take a cash or credit payment upon delivering.</p>
+          <p className="col-sm-8 offset-sm-2">Please fill out the form below and we will coordinate a delivery with you shortly. Delivery fees are included in the list price -- we will take cash or credit payment upon delivering.</p>
           </div> 
           <form className = "col-sm-8 offset-sm-2 order-form" onSubmit={this.postForm}>
             <div className="form-group">
@@ -131,7 +131,7 @@ class Contact extends Component {
         <div className ="form-container col-sm-6 offset-sm-3">
           <div className ="col-sm-12 contact-form">
           <h3>Order & Contact</h3> 
-          <h6 className="col-sm-8 offset-sm-2">Thanks for reaching out! We'll be back to you in the nect couple days.</h6>
+          <h6 className="col-sm-8 offset-sm-2">Thanks for reaching out! We'll be back to you in the next couple days.</h6>
           </div> 
           <form className = "col-sm-8 offset-sm-2">
             <div className="form-group thanks-container">
@@ -143,4 +143,4 @@ class Contact extends Component {
   }
 }
 
-export default withRouter(Contact);
+export default withRouter(Order);
