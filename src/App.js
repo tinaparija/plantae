@@ -33,7 +33,7 @@ class App extends Component {
           <Route exact path='/'component={Home}/> )} />
           <Route exact path='/about' component={About}/> )} />
           <Route exact path='/faq' component={FAQ}/> )} />
-          <Route exact path='/order' component={Contact}/> )} />
+          <Route exact path='/order' component={Order}/> )} />
           <Route exact path='/:plant' component={Home}/>
         </Switch>
         </div>
