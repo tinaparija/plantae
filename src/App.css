@@ -313,9 +313,10 @@ body{
 }
 
 .contact-images{
-    margin: 0 auto;
+    margin: 15px auto;
     height: 260px;
     width: 190px;
+    border-radius: 20px;
 }
 
 .final-comments{
