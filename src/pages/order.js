@@ -15,10 +15,12 @@ class Order extends Component {
       flfQ:'',
       snakeQ:'',
       comments: '', 
-      form_submmitted: ''
+      form_submmitted: '', 
+      zip_error: '', 
     }
     this.updateMyState = this.updateMyState.bind(this);
     this.postForm = this.postForm.bind(this);
+    this.checkZipCode = this.checkZipCode.bind(this);
   }
 
   updateMyState(stateKey) {
@@ -29,9 +31,23 @@ class Order extends Component {
     }
   }
 
+  checkZipCode(zipcode){
+    let zip = this.state.zipcode;
+    let zip_trim = zip.trim(); 
+    let valid_codes = ["94151","94159","94158","94102","94104","94103","94105","94188","94108","94177","94107","94110","94109","94112","94111","94115","94114","94117","94116","94118","94121","94123","94122","94124","94127","94126","94129","94131","94133","94132","94134","94139","94143"]
+    if (valid_codes.includes(zip_trim)){
+      return true; 
+    } else{
+      return false; 
+    }
+  }
+
+
   postForm(e){
     e.preventDefault();
-    fetch(`https://secret-badlands-12194.herokuapp.com/api/messages`, {  
+    let validated_zip = this.checkZipCode()
+    if (validated_zip) {
+      fetch(`https://secret-badlands-12194.herokuapp.com/api/messages`, {  
         method: 'POST',
         headers: {
         'Accept': 'application/json',
@@ -55,9 +71,16 @@ class Order extends Component {
           form_submitted: "yes"
       })
     });
+    } else {
+      this.setState({
+        zip_error: "yes"
+      })
+    }
+
   }
 
   render() {
+    this.checkZipCode()
     if (!this.state.form_submitted){
       return (
       <div className = "contact-container">
@@ -80,8 +103,14 @@ class Order extends Component {
               <input type="text" className="form-control input-sm" required onChange={this.updateMyState('phone')}/>
             </div>
             <div className="form-group">
+              <small id="zip-error" style={this.state.zip_error == 'yes' ? {} : {display: 'none'}}>
+                    Please enter a zip code within San Francisco. 
+              </small><br/> 
               <label htmlFor="zipcode">Zip Code</label>
               <input type="text" className="form-control input-sm" required onChange={this.updateMyState('zipcode')}/>
+              <small className="text-muted">
+                  We currently deliver within the 7x7 sq. miles that make up San Francisco.
+              </small>
             </div>
             <div className="col-sm-12 plant-contact-row">
               <h5>Monstera - $90</h5> 
@@ -117,7 +146,7 @@ class Order extends Component {
             </div>
             <div className="form-group final-comments">
               <label htmlFor="Additional Comments">Notes, Thoughts, Feelings</label>
-              <textarea type="text" className="form-control" rows="5" onChange={this.updateMyState('comments')}/>
+              <textarea type="text" className="form-control" rows="5" placeholder="Tell us your dreams and discount codes." onChange={this.updateMyState('comments')}/>
             </div>
             <button type='submit' className='btn btn-success contact-button '>Submit</button>
           </form>

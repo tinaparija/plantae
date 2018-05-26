@@ -86,6 +86,11 @@ body{
     font-size: 1.5em; 
 }
 
+.landing-description{
+    padding-top: 20px;
+    text-align: center;
+}
+
 .order-box{
     margin: 0 auto;
     padding-top: 5px;
@@ -303,6 +308,9 @@ body{
     font-size: .8em;
 }
 
+#zip-error{
+    color: red;
+}
 
 .order-form{
     text-align: left; 

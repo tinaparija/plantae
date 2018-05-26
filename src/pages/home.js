@@ -30,6 +30,11 @@ class Home extends Component {
             </div></a>
           </div> 
         </div>
+        <div className = "row landing-description">
+          <div className = "col-sm-8 offset-sm-2"> 
+            <p>Plantae delivers a rotating selection of gorgeous, easy-to-tend house plants all around the city of San Francisco. Below is our current inventory. </p> 
+          </div> 
+        </div> 
         <div className = "row shop-preview">
           <div className = "col-sm-6 col-lg-3 preview-box" onClick={(e) => this.setPlant(e, "Monstera")}>
             <h5>Monstera</h5>
